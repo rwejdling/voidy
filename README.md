@@ -4,6 +4,8 @@ Simple ZSH theme for [Oh My Zsh](https://ohmyz.sh/)
 
 Borrowing elements from [lambda](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/lambda.zsh-theme) and [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) themes and adding active [aws-vault](https://github.com/99designs/aws-vault) profile to the right side of the prompt.
 
+![iTerm screenshot](screenshot.png)
+
 ## Features
 
 - Simple (and fast)
