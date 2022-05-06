@@ -9,7 +9,7 @@ if [[ "$SHOW_AWSVAULT_PROMPT" != false && "$RPROMPT" != *'$(awsvault_prompt_info
 fi
 
 PROMPT="%(?:%{$fg_bold[green]%}λ :%{$fg_bold[red]%}λ )"
-PROMPT+='%{$fg_bold[white]%}%n@%m %{$fg[cyan]%}%~%{$reset_color%} $(git_prompt_info)'
+PROMPT+='%{$fg_bold[white]%}%n@%m %{$fg[cyan]%}%3~%{$reset_color%} $(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
