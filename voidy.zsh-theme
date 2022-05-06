@@ -1,3 +1,6 @@
+ZSH_THEME_GIT_PROMPT_BRANCH_CAP=25           # Maximum number of characters from the branch name to show
+ZSH_THEME_GIT_PROMPT_BRANCH_CAP_SUFFIX="..." # Text to display if the branch is clean
+
 # aws-vault prompt
 function awsvault_prompt_info() {
   [[ -n "$AWS_VAULT" ]] || return
